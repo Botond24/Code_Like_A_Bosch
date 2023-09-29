@@ -1,4 +1,3 @@
 - Makes easier for beginners to calibrate to the perfect angle
 - Helps you make less missscrewd screw
 - Doesnt makes it a lot heavier
-- 
