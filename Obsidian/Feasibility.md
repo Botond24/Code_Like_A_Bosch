@@ -1,0 +1,1 @@
+by desinging the device we consider the amoun of the left space and we wok with that
