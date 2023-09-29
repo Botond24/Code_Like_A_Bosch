@@ -6,7 +6,8 @@
 3. ?????
 4. profit
 ### Ideas
-- lapma, toldo
+- lapma
+- toldo
 - nyomatek kijelzo
 - Nekem az ötletem a szogmérő, ezt 2 dologra is használhatjuk
     - Egyrészt segíthet kezdőknek hogy jól tartsák a fúrót
