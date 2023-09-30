@@ -1,10 +1,5 @@
 # Code Like A Bosch Challenge
 ## Hardware Chalenge
-### TODO
-1. szétszedni a csavarhúzót
-2. nem tönkretenni
-3. ?????
-4. profit
 ### Ideas
 - lapma
 - toldo
@@ -29,5 +24,3 @@
 7. Firmware code, or segment of your algorithm (only if applicable to your idea)
 8. Explain your idea and introduce your team in a video
 9. Optional for additional points: start prototyping and bring your idea to life with the provided tools, hardware components on site (HW + firmware)
-10. ???????
-11. profit
