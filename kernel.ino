@@ -24,10 +24,10 @@ void setup()
     Serial.println("Failed to detect and initialize sensorT!");
     while (1) {}
   }
-  sensorL.setTimeout(500);
-  if (!sensorL.init())
+  sensorR.setTimeout(500);
+  if (!sensorR.init())
   {
-    Serial.println("Failed to detect and initialize sensorL!");
+    Serial.println("Failed to detect and initialize sensorR!");
     while (1) {}
   }
   sensorD.setTimeout(500);
@@ -36,10 +36,10 @@ void setup()
     Serial.println("Failed to detect and initialize sensorD!");
     while (1) {}
   }
-  sensorR.setTimeout(500);
-  if (!sensorR.init())
+  sensorL.setTimeout(500);
+  if (!sensorL.init())
   {
-    Serial.println("Failed to detect and initialize sensorR!");
+    Serial.println("Failed to detect and initialize sensorL!");
     while (1) {}
   }
 
@@ -48,13 +48,13 @@ void setup()
   // instead, provide a desired inter-measurement period in
   // ms (e.g. sensor.startContinuous(100)).
   sensorT.setAddress(0xE0);
-  sensorL.setAddress(0xE1);
-  sensorD.setAddress(0xE2);
   sensorR.setAddress(0xE3);
+  sensorD.setAddress(0xE2);
+  sensorL.setAddress(0xE1);
   sensorT.startContinuous();
-  sensorL.startContinuous();
-  sensorD.startContinuous();
   sensorR.startContinuous();
+  sensorD.startContinuous();
+  sensorL.startContinuous();
 }
 
 void loop()
