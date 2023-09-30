@@ -8,7 +8,7 @@
     - Egyrészt segíthet kezdőknek hogy jól tartsák a fúrót
     - Másrészt vízszint mérő
 
-### Real TODO
+### TODO -- Moved to Obsidian/Main doc.md
 
 1. Brainstorm and decide on an idea that can enhance the Bosch 12 screwdriver
     - Business model of your solution
