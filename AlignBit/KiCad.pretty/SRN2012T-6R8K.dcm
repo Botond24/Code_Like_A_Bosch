@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SRN2012T-6R8K
+D Ind,2x1.2x1.2mm,6.8uH?10%,0.7A,semi-shd
+K
+F http://www.bourns.com/docs/Product-Datasheets/SRN2012T.pdf
+$ENDCMP
+#
+#End Doc Library
