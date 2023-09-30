@@ -1,1 +1,1 @@
-by desinging the device we consider the amount of the left space and we wok with that
+While designing the device we consider the amount of space available making sure to stay inside it.

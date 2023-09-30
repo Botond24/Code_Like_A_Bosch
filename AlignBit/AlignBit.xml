@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\Documents\Code_Like_A_Bosch\Fancy_Name\Fancy_Name.kicad_sch</source>
+    <date>30/09/2023 06:03:25</date>
+    <tool>Eeschema 7.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Fancy_Name.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Conn_01x04_Pin</value>
+      <footprint>Connector_PinSocket_1.00mm:PinSocket_1x04_P1.00mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Fancy_Name.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2bde79dd-2d36-43dc-843b-a30b54df915b</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>STM32C011J_4-6_Mx</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/stm32c011j4.pdf</datasheet>
+      <libsource lib="MCU_ST_STM32C0" part="STM32C011J_4-6_Mx" description="STMicroelectronics Arm Cortex-M0+ MCU, 16-32KB flash, 6KB RAM, 48 MHz, 2.0-3.6V, 6 GPIO, SO8N"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Fancy_Name.kicad_sch"/>
+      <property name="ki_description" value="STMicroelectronics Arm Cortex-M0+ MCU, 16-32KB flash, 6KB RAM, 48 MHz, 2.0-3.6V, 6 GPIO, SO8N"/>
+      <property name="ki_keywords" value="Arm Cortex-M0+ STM32C0 STM32C0x1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59a715c4-f7cc-4092-bfa8-f2d410e55bdc</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>~</value>
+      <footprint>Converter_DCDC:IEB01</footprint>
+      <libsource lib="Converter_DCDC" part="IEB0112S3V3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Fancy_Name.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4903f11-2616-4a9f-8cf8-edee1254b9aa</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>~</value>
+      <footprint>Connector_PinSocket_1.00mm:PinSocket_1x04_P1.00mm_Vertical</footprint>
+      <libsource lib="Driver_Display" part="SSD1306" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Fancy_Name.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36a6fdf0-724e-4550-b8b0-604c7655943c</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>VL53L0CXV0DH_1</value>
+      <footprint>KiCad:LGA12_1</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/b2/1e/33/77/c6/92/47/6b/DM00279086/files/DM00279086.pdf/jcr:content/translations/en.DM00279086.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">VL53L0CXV0DH/1</field>
+        <field name="Mouser Part Number">511-VL53L0CXV0DH/1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/VL53L0CXV0DH-1?qs=dTJS0cRn7ojtsK3C9%252BTaSw%3D%3D</field>
+      </fields>
+      <libsource lib="VL53L0CXV0DH_1" part="VL53L0CXV0DH_1" description="STMICROELECTRONICS - VL53L0CXV0DH/1 - GESTURE DETECTION SENSOR, DIGITAL, LGA12"/>
+      <property name="Height" value=""/>
+      <property name="Mouser Part Number" value="511-VL53L0CXV0DH/1"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/STMicroelectronics/VL53L0CXV0DH-1?qs=dTJS0cRn7ojtsK3C9%252BTaSw%3D%3D"/>
+      <property name="Manufacturer_Name" value="STMicroelectronics"/>
+      <property name="Manufacturer_Part_Number" value="VL53L0CXV0DH/1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Fancy_Name.kicad_sch"/>
+      <property name="ki_description" value="STMICROELECTRONICS - VL53L0CXV0DH/1 - GESTURE DETECTION SENSOR, DIGITAL, LGA12"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c5c58cc-3b7c-453a-89d7-cc87232c6378</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>VL53L0CXV0DH_1</value>
+      <footprint>KiCad:LGA12_1</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/b2/1e/33/77/c6/92/47/6b/DM00279086/files/DM00279086.pdf/jcr:content/translations/en.DM00279086.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">VL53L0CXV0DH/1</field>
+        <field name="Mouser Part Number">511-VL53L0CXV0DH/1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/VL53L0CXV0DH-1?qs=dTJS0cRn7ojtsK3C9%252BTaSw%3D%3D</field>
+      </fields>
+      <libsource lib="VL53L0CXV0DH_1" part="VL53L0CXV0DH_1" description="STMICROELECTRONICS - VL53L0CXV0DH/1 - GESTURE DETECTION SENSOR, DIGITAL, LGA12"/>
+      <property name="Height" value=""/>
+      <property name="Mouser Part Number" value="511-VL53L0CXV0DH/1"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/STMicroelectronics/VL53L0CXV0DH-1?qs=dTJS0cRn7ojtsK3C9%252BTaSw%3D%3D"/>
+      <property name="Manufacturer_Name" value="STMicroelectronics"/>
+      <property name="Manufacturer_Part_Number" value="VL53L0CXV0DH/1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Fancy_Name.kicad_sch"/>
+      <property name="ki_description" value="STMICROELECTRONICS - VL53L0CXV0DH/1 - GESTURE DETECTION SENSOR, DIGITAL, LGA12"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73ada932-5859-49ad-b80a-773c85ce8ee3</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>VL53L0CXV0DH_1</value>
+      <footprint>KiCad:LGA12_1</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/b2/1e/33/77/c6/92/47/6b/DM00279086/files/DM00279086.pdf/jcr:content/translations/en.DM00279086.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">VL53L0CXV0DH/1</field>
+        <field name="Mouser Part Number">511-VL53L0CXV0DH/1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/VL53L0CXV0DH-1?qs=dTJS0cRn7ojtsK3C9%252BTaSw%3D%3D</field>
+      </fields>
+      <libsource lib="VL53L0CXV0DH_1" part="VL53L0CXV0DH_1" description="STMICROELECTRONICS - VL53L0CXV0DH/1 - GESTURE DETECTION SENSOR, DIGITAL, LGA12"/>
+      <property name="Height" value=""/>
+      <property name="Mouser Part Number" value="511-VL53L0CXV0DH/1"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/STMicroelectronics/VL53L0CXV0DH-1?qs=dTJS0cRn7ojtsK3C9%252BTaSw%3D%3D"/>
+      <property name="Manufacturer_Name" value="STMicroelectronics"/>
+      <property name="Manufacturer_Part_Number" value="VL53L0CXV0DH/1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Fancy_Name.kicad_sch"/>
+      <property name="ki_description" value="STMICROELECTRONICS - VL53L0CXV0DH/1 - GESTURE DETECTION SENSOR, DIGITAL, LGA12"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6bf6d866-57d2-4255-b930-2ffbfbf2d92a</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>VL53L0CXV0DH_1</value>
+      <footprint>KiCad:LGA12_1</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/b2/1e/33/77/c6/92/47/6b/DM00279086/files/DM00279086.pdf/jcr:content/translations/en.DM00279086.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">VL53L0CXV0DH/1</field>
+        <field name="Mouser Part Number">511-VL53L0CXV0DH/1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/VL53L0CXV0DH-1?qs=dTJS0cRn7ojtsK3C9%252BTaSw%3D%3D</field>
+      </fields>
+      <libsource lib="VL53L0CXV0DH_1" part="VL53L0CXV0DH_1" description="STMICROELECTRONICS - VL53L0CXV0DH/1 - GESTURE DETECTION SENSOR, DIGITAL, LGA12"/>
+      <property name="Height" value=""/>
+      <property name="Mouser Part Number" value="511-VL53L0CXV0DH/1"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/STMicroelectronics/VL53L0CXV0DH-1?qs=dTJS0cRn7ojtsK3C9%252BTaSw%3D%3D"/>
+      <property name="Manufacturer_Name" value="STMicroelectronics"/>
+      <property name="Manufacturer_Part_Number" value="VL53L0CXV0DH/1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Fancy_Name.kicad_sch"/>
+      <property name="ki_description" value="STMICROELECTRONICS - VL53L0CXV0DH/1 - GESTURE DETECTION SENSOR, DIGITAL, LGA12"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bea34c68-4a28-458a-83a2-4767fd20c33a</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x04_Pin">
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Converter_DCDC" part="IEB0112S3V3">
+      <fields>
+        <field name="Reference">U</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+Vin" type="power_in"/>
+        <pin num="2" name="-Vin" type="passive"/>
+        <pin num="3" name="+Vout" type="power_out"/>
+        <pin num="4" name="-Vout" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Driver_Display" part="SSD1306">
+      <fields>
+        <field name="Reference">U</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="SDA" type="bidirectional"/>
+        <pin num="4" name="SCL" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_ST_STM32C0" part="STM32C011J_4-6_Mx">
+      <description>STMicroelectronics Arm Cortex-M0+ MCU, 16-32KB flash, 6KB RAM, 48 MHz, 2.0-3.6V, 6 GPIO, SO8N</description>
+      <docs>https://www.st.com/resource/en/datasheet/stm32c011j4.pdf</docs>
+      <footprints>
+        <fp>SO*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32C011J_4-6_Mx</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/stm32c011j4.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PC14/PB7" type="bidirectional"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="VSS" type="power_in"/>
+        <pin num="4" name="PF2/PA0/PA1/PA2" type="bidirectional"/>
+        <pin num="5" name="PA8/PA9/PA11" type="bidirectional"/>
+        <pin num="6" name="PA10/PA12" type="bidirectional"/>
+        <pin num="7" name="PA13" type="bidirectional"/>
+        <pin num="8" name="PC15/PA14/PB6" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="VL53L0CXV0DH_1" part="VL53L0CXV0DH_1">
+      <description>STMICROELECTRONICS - VL53L0CXV0DH/1 - GESTURE DETECTION SENSOR, DIGITAL, LGA12</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/b2/1e/33/77/c6/92/47/6b/DM00279086/files/DM00279086.pdf/jcr:content/translations/en.DM00279086.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">VL53L0CXV0DH_1</field>
+        <field name="Footprint">LGA12_1</field>
+        <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/b2/1e/33/77/c6/92/47/6b/DM00279086/files/DM00279086.pdf/jcr:content/translations/en.DM00279086.pdf</field>
+        <field name="Mouser Part Number">511-VL53L0CXV0DH/1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/VL53L0CXV0DH-1?qs=dTJS0cRn7ojtsK3C9%252BTaSw%3D%3D</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">VL53L0CXV0DH/1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AVDDVCSEL" type="power_in"/>
+        <pin num="2" name="AVSSVCSEL" type="input"/>
+        <pin num="3" name="GND" type="bidirectional"/>
+        <pin num="4" name="GND2" type="input"/>
+        <pin num="5" name="XSHUT" type="output"/>
+        <pin num="6" name="GND3" type="power_in"/>
+        <pin num="7" name="GPIO1" type="input"/>
+        <pin num="8" name="DNC" type="power_in"/>
+        <pin num="9" name="SDA" type="power_in"/>
+        <pin num="10" name="SCL" type="power_in"/>
+        <pin num="11" name="AVDD" type="power_in"/>
+        <pin num="12" name="GND4" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>D:\Other\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Converter_DCDC">
+      <uri>D:\Other\KiCad\7.0\share\kicad\symbols\/Converter_DCDC.kicad_sym</uri>
+    </library>
+    <library logical="Driver_Display">
+      <uri>D:\Other\KiCad\7.0\share\kicad\symbols\/Driver_Display.kicad_sym</uri>
+    </library>
+    <library logical="MCU_ST_STM32C0">
+      <uri>D:\Other\KiCad\7.0\share\kicad\symbols\/MCU_ST_STM32C0.kicad_sym</uri>
+    </library>
+    <library logical="VL53L0CXV0DH_1">
+      <uri>D:\Documents\Code_Like_A_Bosch\Fancy_Name/KiCad/VL53L0CXV0DH_1.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+12V">
+      <node ref="U2" pin="1" pinfunction="+Vin" pintype="power_in"/>
+    </net>
+    <net code="2" name="/RX1">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="PA10/PA12" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/TX1">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="PA8/PA9/PA11" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="3.3V">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="+Vout" pintype="power_out"/>
+      <node ref="U3" pin="2" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="AVDDVCSEL" pintype="power_in"/>
+      <node ref="U4" pin="11" pinfunction="AVDD" pintype="power_in"/>
+      <node ref="U5" pin="1" pinfunction="AVDDVCSEL" pintype="power_in"/>
+      <node ref="U5" pin="11" pinfunction="AVDD" pintype="power_in"/>
+      <node ref="U6" pin="1" pinfunction="AVDDVCSEL" pintype="power_in"/>
+      <node ref="U6" pin="11" pinfunction="AVDD" pintype="power_in"/>
+      <node ref="U7" pin="1" pinfunction="AVDDVCSEL" pintype="power_in"/>
+      <node ref="U7" pin="11" pinfunction="AVDD" pintype="power_in"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="U2" pin="2" pinfunction="-Vin" pintype="passive"/>
+    </net>
+    <net code="6" name="INTERNAL_GND">
+      <node ref="U1" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="-Vout" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="U4" pin="12" pinfunction="GND4" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="AVSSVCSEL" pintype="input"/>
+      <node ref="U4" pin="3" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U4" pin="4" pinfunction="GND2" pintype="input"/>
+      <node ref="U4" pin="6" pinfunction="GND3" pintype="power_in"/>
+      <node ref="U5" pin="12" pinfunction="GND4" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="AVSSVCSEL" pintype="input"/>
+      <node ref="U5" pin="3" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U5" pin="4" pinfunction="GND2" pintype="input"/>
+      <node ref="U5" pin="6" pinfunction="GND3" pintype="power_in"/>
+      <node ref="U6" pin="12" pinfunction="GND4" pintype="power_in"/>
+      <node ref="U6" pin="2" pinfunction="AVSSVCSEL" pintype="input"/>
+      <node ref="U6" pin="3" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U6" pin="4" pinfunction="GND2" pintype="input"/>
+      <node ref="U6" pin="6" pinfunction="GND3" pintype="power_in"/>
+      <node ref="U7" pin="12" pinfunction="GND4" pintype="power_in"/>
+      <node ref="U7" pin="2" pinfunction="AVSSVCSEL" pintype="input"/>
+      <node ref="U7" pin="3" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U7" pin="4" pinfunction="GND2" pintype="input"/>
+      <node ref="U7" pin="6" pinfunction="GND3" pintype="power_in"/>
+    </net>
+    <net code="7" name="SCL">
+      <node ref="U1" pin="8" pinfunction="PC15/PA14/PB6" pintype="bidirectional"/>
+      <node ref="U3" pin="4" pinfunction="SCL" pintype="bidirectional"/>
+      <node ref="U4" pin="10" pinfunction="SCL" pintype="power_in"/>
+      <node ref="U5" pin="10" pinfunction="SCL" pintype="power_in"/>
+      <node ref="U6" pin="10" pinfunction="SCL" pintype="power_in"/>
+      <node ref="U7" pin="10" pinfunction="SCL" pintype="power_in"/>
+    </net>
+    <net code="8" name="SDA">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="PC14/PB7" pintype="bidirectional"/>
+      <node ref="U3" pin="3" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U4" pin="9" pinfunction="SDA" pintype="power_in"/>
+      <node ref="U5" pin="9" pinfunction="SDA" pintype="power_in"/>
+      <node ref="U6" pin="9" pinfunction="SDA" pintype="power_in"/>
+      <node ref="U7" pin="9" pinfunction="SDA" pintype="power_in"/>
+    </net>
+    <net code="9" name="unconnected-(U1-PA13-Pad7)">
+      <node ref="U1" pin="7" pinfunction="PA13" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="unconnected-(U1-PF2{slash}PA0{slash}PA1{slash}PA2-Pad4)">
+      <node ref="U1" pin="4" pinfunction="PF2/PA0/PA1/PA2" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="unconnected-(U4-DNC-Pad8)">
+      <node ref="U4" pin="8" pinfunction="DNC" pintype="power_in"/>
+    </net>
+    <net code="12" name="unconnected-(U4-GPIO1-Pad7)">
+      <node ref="U4" pin="7" pinfunction="GPIO1" pintype="input"/>
+    </net>
+    <net code="13" name="unconnected-(U4-XSHUT-Pad5)">
+      <node ref="U4" pin="5" pinfunction="XSHUT" pintype="output"/>
+    </net>
+    <net code="14" name="unconnected-(U5-DNC-Pad8)">
+      <node ref="U5" pin="8" pinfunction="DNC" pintype="power_in"/>
+    </net>
+    <net code="15" name="unconnected-(U5-GPIO1-Pad7)">
+      <node ref="U5" pin="7" pinfunction="GPIO1" pintype="input"/>
+    </net>
+    <net code="16" name="unconnected-(U5-XSHUT-Pad5)">
+      <node ref="U5" pin="5" pinfunction="XSHUT" pintype="output"/>
+    </net>
+    <net code="17" name="unconnected-(U6-DNC-Pad8)">
+      <node ref="U6" pin="8" pinfunction="DNC" pintype="power_in"/>
+    </net>
+    <net code="18" name="unconnected-(U6-GPIO1-Pad7)">
+      <node ref="U6" pin="7" pinfunction="GPIO1" pintype="input"/>
+    </net>
+    <net code="19" name="unconnected-(U6-XSHUT-Pad5)">
+      <node ref="U6" pin="5" pinfunction="XSHUT" pintype="output"/>
+    </net>
+    <net code="20" name="unconnected-(U7-DNC-Pad8)">
+      <node ref="U7" pin="8" pinfunction="DNC" pintype="power_in"/>
+    </net>
+    <net code="21" name="unconnected-(U7-GPIO1-Pad7)">
+      <node ref="U7" pin="7" pinfunction="GPIO1" pintype="input"/>
+    </net>
+    <net code="22" name="unconnected-(U7-XSHUT-Pad5)">
+      <node ref="U7" pin="5" pinfunction="XSHUT" pintype="output"/>
+    </net>
+  </nets>
+</export>
