@@ -49,8 +49,8 @@ void setup()
   // ms (e.g. sensor.startContinuous(100)).
   sensorT.setAddress(0xE0);
   sensorL.setAddress(0xE1);
-  sensorD.setAddress(0xE3);
-  sensorR.setAddress(0xE2);
+  sensorD.setAddress(0xE2);
+  sensorR.setAddress(0xE3);
   sensorT.startContinuous();
   sensorL.startContinuous();
   sensorD.startContinuous();
