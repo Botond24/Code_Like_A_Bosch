@@ -1,7 +1,7 @@
 1. Brainstorm and [[decide]] on an idea that can enhance the Bosch 12 screwdriver ✅
-    - [[Business model]] of your solution - Button ✅
-    - [[Customer need]] for your extension – how many new customers could be acquired with the new extension - Button
-    - [[Value added]] for the customer – comfort, safety, efficiency, versatility 
+    - [[Business_Model_Canvas.png|Business model]] of your solution - Button ✅
+    - [[Customer need]] for your extension – how many new customers could be acquired with the new extension - Button ✅
+    - [[Value added]] for the customer – comfort, safety, efficiency, versatility ✅
     - [[Feasibility]] – is this can be really realized? ✅
     - [[Costs]] – development, BOM, sale price - Button ✅
 2. [[Overview]] of the proposed solution – block diagram, infographics, etc. ✅
